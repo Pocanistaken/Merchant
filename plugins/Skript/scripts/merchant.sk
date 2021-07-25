@@ -1,6 +1,8 @@
 #
 # This skript made by Pocan#4406 If you want to get support with Merchant please join my discord server https://discord.gg/w9cvhQJpGz
+# If you have issues contact me on https://github.com/Pocanistaken/Merchant/issues
 #
+
 
 import:
 	org.bukkit.entity.Player
