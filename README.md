@@ -29,7 +29,7 @@ Put this jars to /plugins
 After providing all the requirements to your server restart your server after   
 Put merchant.sk to plugins/Skript/scripts in your server.   
 Execute console command /sk reload merchant.sk    
-After installation is done if you want if you want to Use custom menus created by me not test menus 
+After installation is done.If you want to use custom menus created by me not test menus you can change config.ymls with this link https://github.com/Pocanistaken/Merchant/blob/main/plugins/Merchant/config.yml
 
 # Special Categorys IDS
 
