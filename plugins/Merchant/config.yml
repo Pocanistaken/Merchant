@@ -1,0 +1,1033 @@
+Version: 1.0.0
+
+Category:
+    Name: "&0Merchant"
+    Size: 4
+    Items:
+        Redstone:
+            Name: "&cRedstone"
+            ID: Redstone
+            Slot: 14
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: REDSTONE
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cRedstone &7products"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Info:
+            Name: "&cInfo"
+            ID: 'null'
+            Slot: 10
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: HAY_BLOCK
+            Lore:
+            - ''
+            - " &8▪ &cMerchant &7puts his stuff up for sale"
+            - " &7and the sales you make through the merchant"
+            - " &7you can earn money with."
+            - ''
+        Blocks:
+            Name: "&cBlocks"
+            ID: Blocks
+            Slot: 12
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: GRASS_BLOCK
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cBlocks"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Tools:
+            Name: "&cTools"
+            ID: Tools
+            Slot: 21
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: DIAMOND_AXE
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cTools"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Foods:
+            Name: "&cFoods"
+            ID: Foods
+            Slot: 22
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: COOKIE
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cFoods"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Decoration:
+            Name: "&cDecoration"
+            ID: Decoration
+            Slot: 13
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: ARMOR_STAND
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cDecorations"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Potions:
+            Name: "&cPotions"
+            ID: Potion
+            Slot: 15
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: BREWING_STAND
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cPotions"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Resources:
+            Name: "&cResources"
+            ID: Resources
+            Slot: 23
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: DIAMOND
+            Lore:
+            - ''
+            - "&8▪ &7In this category you can"
+            - "&7can view the &cResources"
+            - "&7or you can buy it."
+            - ''
+            - " &8► &7Click here to start &eshopping!"
+        Myitems:
+            Name: "&cMy Items On Sale"
+            ID: store
+            Slot: 19
+            Display:
+                ==: org.bukkit.inventory.ItemStack
+                v: 2586
+                type: ENDER_CHEST
+            Lore:
+            - ''
+            - " &8▪ &7In here you can wiew"
+            - " &7your own items on the sale"
+            - " &7and you can edit them."
+            - ''
+
+Shop:
+    Name: "{category} &8► &f#{page}"
+    Lore:
+    - ''
+    - " &8▪ &7Seller amount &8► &f{seller}"
+    - " &8▪ &7Average price &8► &f{average}$"
+    - ''
+    Items:
+        Blocks:
+            '1':
+                OAK_PLANKS:
+                    Name: "&cOak Planks"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: OAK_PLANKS
+                SPRUCE_PLANKS:
+                    Name: "&cSpruce Planks"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: SPRUCE_PLANKS
+                BIRCH_PLANKS:
+                    Name: "&cBirch Planks"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BIRCH_PLANKS
+                JUNGLE_PLANKS:
+                    Name: "&cJungle Planks"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: JUNGLE_PLANKS
+                ACACIA_PLANKS:
+                    Name: "&cAcacia Planks"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ACACIA_PLANKS
+                DARK_OAK_PLANKS:
+                    Name: "&cDark Oak Planks"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DARK_OAK_PLANKS
+                CRIMSON_PLANKS:
+                    Name: "&cCrimson Planks"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: CRIMSON_PLANKS
+                WARPED_PLANKS:
+                    Name: "&cWarped Planks"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: WARPED_PLANKS
+                SAND:
+                    Name: "&cSand"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: SAND
+                RED_SAND:
+                    Name: "&cRed Sand"
+                    Slot: 24
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: RED_SAND
+                GRAVEL:
+                    Name: "&cGravel"
+                    Slot: 29
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GRAVEL
+                OAK_LOG:
+                    Name: "&cOak Log"
+                    Slot: 30
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: OAK_LOG
+                SPRUCE_LOG:
+                    Name: "&cSpruce Log"
+                    Slot: 31
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: SPRUCE_LOG
+                BIRCH_LOG:
+                    Name: "&cBirch Log"
+                    Slot: 32
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BIRCH_LOG
+                JUNGLE_LOG:
+                    Name: "&cJungle Log"
+                    Slot: 33
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: JUNGLE_LOG
+                ACACIA_LOG:
+                    Name: "&cAcacia Log"
+                    Slot: 38
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ACACIA_LOG
+                DARK_OAK_LOG:
+                    Name: "&cDark Oak Log"
+                    Slot: 39
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DARK_OAK_LOG
+                CRIMSON_STEM:
+                    Name: "&cCrimson Stem"
+                    Slot: 40
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: CRIMSON_STEM
+                WARPED_STEM:
+                    Name: "&cWarped Stem"
+                    Slot: 41
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: WARPED_STEM
+                STRIPPED_OAK_LOG:
+                    Name: "&cStripped Oak Log"
+                    Slot: 42
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: STRIPPED_OAK_LOG
+            '2':
+                WOOL:
+                    Name: "&cWool"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: WHITE_WOOL
+                ORANGE_WOOL:
+                    Name: "&cOrange Wool"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ORANGE_WOOL
+                MAGENTA_WOOL:
+                    Name: "&cMagenta Wool"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: MAGENTA_WOOL
+                LIGHT_BLUE_WOOL:
+                    Name: "&cLight Blue Wool"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LIGHT_BLUE_WOOL
+                YELLOW_WOOL:
+                    Name: "&cYellow Wool"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: YELLOW_WOOL
+                LIME_WOOL:
+                    Name: "&cLime Wool"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LIME_WOOL
+                PINK_WOOL:
+                    Name: "&cPink Wool"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: PINK_WOOL
+                GRAY_WOOL:
+                    Name: "&cGray Wool"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GRAY_WOOL
+                LIGHT_GRAY_WOOL:
+                    Name: "&cLight Gray Wool"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LIGHT_GRAY_WOOL
+                CYAN_WOOL:
+                    Name: "&cCyan Wool"
+                    Slot: 24
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: CYAN_WOOL
+                PURPLE_WOOL:
+                    Name: "&cPurple Wool"
+                    Slot: 29
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: PURPLE_WOOL
+                BLUE_WOOL:
+                    Name: "&cBlue Wool"
+                    Slot: 30
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BLUE_WOOL
+                BROWN_WOOL:
+                    Name: "&cBrown Wool"
+                    Slot: 31
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BROWN_WOOL
+                GREEN_WOOL:
+                    Name: "&cGreen Wool"
+                    Slot: 32
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GREEN_WOOL
+                RED_WOOL:
+                    Name: "&cRed Wool"
+                    Slot: 33
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: RED_WOOL
+                BLACK_WOOL:
+                    Name: "&cBlack Wool"
+                    Slot: 38
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BLACK_WOOL
+                WhiteStainedGlass:
+                    Name: "&cWhite Stained Glass"
+                    Slot: 39
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: WHITE_STAINED_GLASS
+                OrangeStainedGlass:
+                    Name: "&cOrange Stained Glass"
+                    Slot: 40
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ORANGE_STAINED_GLASS
+                MAGENTA_STAINED_GLASS:
+                    Name: "&cMagenta Stained Glass"
+                    Slot: 41
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: MAGENTA_STAINED_GLASS
+                LIGHT_BLUE_STAINED_GLASS:
+                    Name: "&cLight Blue Stained Glass"
+                    Slot: 42
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LIGHT_BLUE_STAINED_GLASS
+            '3':
+                YELLOW_STAINED_GLASS:
+                    Name: "&cYellow Stained Glass"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: YELLOW_STAINED_GLASS
+                LIME_STAINED_GLASS:
+                    Name: "&cLime Stained Glass"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LIME_STAINED_GLASS
+                PINK_STAINED_GLASS:
+                    Name: "&cPink Stained Glass"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: PINK_STAINED_GLASS
+                GRAY_STAINED_GLASS:
+                    Name: "&cGray Stained Glass"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GRAY_STAINED_GLASS
+                LIGHT_GRAY_STAINED_GLASS:
+                    Name: "&cLight Gray Stained Glass"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LIGHT_GRAY_STAINED_GLASS
+                CYAN_STAINED_GLASS:
+                    Name: "&cCyan Stained Glass"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: CYAN_STAINED_GLASS
+                PURPLE_STAINED_GLASS:
+                    Name: "&cPurple Stained Glass"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: PURPLE_STAINED_GLASS
+                BLUE_STAINED_GLASS:
+                    Name: "&cBlue Stained Glass"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BLUE_STAINED_GLASS
+                BROWN_STAINED_GLASS:
+                    Name: "&cBrown Stained Glass"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BROWN_STAINED_GLASS
+                GREEN_STAINED_GLASS:
+                    Name: "&cGreen Stained Glass"
+                    Slot: 24
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GREEN_STAINED_GLASS
+                RED_STAINED_GLASS:
+                    Name: "&cRed Stained Glass"
+                    Slot: 29
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: RED_STAINED_GLASS
+                BLACK_STAINED_GLASS:
+                    Name: "&cBlack Stained Glass"
+                    Slot: 30
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BLACK_STAINED_GLASS
+        Decoration:
+            '1':
+                OAK_LEAVES:
+                    Name: "&cOak Leaves"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: OAK_LEAVES
+                SPRUCE_LEAVES:
+                    Name: "&cSpruce Leaves"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: SPRUCE_LEAVES
+                BIRCH_LEAVES:
+                    Name: "&cBirch Leaves"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BIRCH_LEAVES
+                JUNGLE_LEAVES:
+                    Name: "&cJungle Leaves"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: JUNGLE_LEAVES
+                ACACIA_LEAVES:
+                    Name: "&cAcacia Leaves"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ACACIA_LEAVES
+                DARK_OAK_LEAVES:
+                    Name: "&cDark Oak Leaves"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DARK_OAK_LEAVES
+                DANDELION:
+                    Name: "&cDandelion"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DANDELION
+                POPPY:
+                    Name: "&cPoppy"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POPPY
+                BLUE_ORCHID:
+                    Name: "&cBlue Orchid"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BLUE_ORCHID
+                Allium:
+                    Name: "&cAllium"
+                    Slot: 24
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ALLIUM
+                AZURE_BLUET:
+                    Name: "&cAzure Bluet"
+                    Slot: 29
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: AZURE_BLUET
+                RED_TULIP:
+                    Name: "&cRed Tulip"
+                    Slot: 30
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: RED_TULIP
+                ORANGE_TULIP:
+                    Name: "&cOrange Tulip"
+                    Slot: 31
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ORANGE_TULIP
+                WHITE_TULIP:
+                    Name: "&cWhite Tulip"
+                    Slot: 32
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: WHITE_TULIP
+                PINK_TULIP:
+                    Name: "&cPink Tulip"
+                    Slot: 33
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: PINK_TULIP
+                OXEYE_DAISY:
+                    Name: "&cOxeye Daisy"
+                    Slot: 38
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: OXEYE_DAISY
+                CORNFLOWER:
+                    Name: "&cCorn Flower"
+                    Slot: 39
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: CORNFLOWER
+                LILY_OF_THE_VALLEY:
+                    Name: "&cLily Of The Valley"
+                    Slot: 40
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LILY_OF_THE_VALLEY
+                WITHER_ROSE:
+                    Name: "&cWither Rose"
+                    Slot: 41
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: WITHER_ROSE
+                BROWN_MUSHROOM:
+                    Name: "&cBrown Mushroom"
+                    Slot: 42
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BROWN_MUSHROOM
+        Redstone:
+            '1':
+                DISPENSER:
+                    Name: "&cDispenser"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DISPENSER
+                NOTE_BLOCK:
+                    Name: "&cNote Block"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: NOTE_BLOCK
+                STICKY_PISTON:
+                    Name: "&cSticky Piston"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: STICKY_PISTON
+                PISTON:
+                    Name: "&cPiston"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: PISTON
+                Tnt:
+                    Name: "&cTnt"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: TNT
+                REDSTONE_TORCH:
+                    Name: "&cRedstone Torch"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: REDSTONE_TORCH
+                STONE_PRESSURE_PLATE:
+                    Name: "&cStone Pressure Plate"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: STONE_PRESSURE_PLATE
+                REDSTONE_LAMP:
+                    Name: "&cRedstone Lamp"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: REDSTONE_LAMP
+                LEVER:
+                    Name: "&cLever"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: LEVER
+                REDSTONE_BLOCK:
+                    Name: "&cRedstone Block"
+                    Slot: 24
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: REDSTONE_BLOCK
+                HOPPER:
+                    Name: "&cHopper"
+                    Slot: 29
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: HOPPER
+                DROPPER:
+                    Name: "&cDropper"
+                    Slot: 30
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DROPPER
+                IRON_TRAPDOOR:
+                    Name: "&cIron Trap Door"
+                    Slot: 31
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: IRON_TRAPDOOR
+                REDSTONE:
+                    Name: "&cRedstone"
+                    Slot: 32
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: REDSTONE
+                REPEATER:
+                    Name: "&cRepeater"
+                    Slot: 33
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: REPEATER
+                COMPARATOR:
+                    Name: "&cComparator"
+                    Slot: 38
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: COMPARATOR
+        Potion:
+            '1':
+                night_vision:
+                    Name: "&cNight Vision Potion"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:night_vision
+                invisibility:
+                    Name: "&cInvisibility Potion"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:invisibility
+                leaping:
+                    Name: "&cLeaping Potion"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:leaping
+                fire_resistance:
+                    Name: "&cFire Resistance Potion"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:fire_resistance
+                swiftness:
+                    Name: "&cSwiftness Potion"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:swiftness
+                slowness:
+                    Name: "&cSlowness Potion"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:slowness
+                water_breathing:
+                    Name: "&cWater Breathing Potion"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:water_breathing
+                healing:
+                    Name: "&cHealing Potion"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:healing
+                harming:
+                    Name: "&cHarming Potion"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: POTION
+                        meta:
+                            ==: ItemMeta
+                            meta-type: POTION
+                            potion-type: minecraft:harming
+        Tools:
+            '1':
+                IRON_SHOVEL:
+                    Name: "&cIron Shovel"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: IRON_SHOVEL
+                IRON_HOE:
+                    Name: "&cIron Hoe"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: IRON_HOE
+                IRON_AXE:
+                    Name: "&cIron Axe"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: IRON_AXE
+                DIAMOND_SHOVEL:
+                    Name: "&cDiamond Shovel"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DIAMOND_SHOVEL
+                DiamondHoe:
+                    Name: "&cDiamond Hoe"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DIAMOND_HOE
+                DiamondAxe:
+                    Name: "&cDiamond Axe"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DIAMOND_AXE
+                DiamondPickaxe:
+                    Name: "&cDiamond Pickaxe"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DIAMOND_PICKAXE
+                IronPickaxe:
+                    Name: "&cIron Pickaxe"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: IRON_PICKAXE
+        Foods:
+            '1':
+                APPLE:
+                    Name: "&cApple"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: APPLE
+                MUSHROOM_STEW:
+                    Name: "&cMushroom Stew"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: MUSHROOM_STEW
+                BREAD:
+                    Name: "&cBread"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: BREAD
+                COOKED_PORKCHOP:
+                    Name: "&cCooked Porkchop"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: COOKED_PORKCHOP
+                GOLDEN_APPLE:
+                    Name: "&cGolden Apple"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GOLDEN_APPLE
+                ENCHANTED_GOLDEN_APPLE:
+                    Name: "&cEnchanted Golden Apple"
+                    Slot: 20
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: ENCHANTED_GOLDEN_APPLE
+                COOKED_BEEF:
+                    Name: "&cCooked Beef"
+                    Slot: 21
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: COOKED_BEEF
+                COOKED_CHICKEN:
+                    Name: "&cCooked Chicken"
+                    Slot: 22
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: COOKED_CHICKEN
+                COOKED_MUTTON:
+                    Name: "&cCooked Mutton"
+                    Slot: 23
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: COOKED_MUTTON
+        Resources:
+            '1':
+                COAL:
+                    Name: "&cCoal"
+                    Slot: 11
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: COAL
+                IRON_INGOT:
+                    Name: "&cIron Ingot"
+                    Slot: 12
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: IRON_INGOT
+                GOLD_INGOT:
+                    Name: "&cGold Ingot"
+                    Slot: 13
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: GOLD_INGOT
+                DIAMOND:
+                    Name: "&cDiamond"
+                    Slot: 14
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: DIAMOND
+                NETHERITE_INGOT:
+                    Name: "&cNetherite Ingot"
+                    Slot: 15
+                    Display:
+                        ==: org.bukkit.inventory.ItemStack
+                        v: 2586
+                        type: NETHERITE_INGOT
