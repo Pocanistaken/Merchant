@@ -22,6 +22,15 @@ Skript-reflect -> https://forums.skunity.com/resources/skript-reflect.1146/
 Skript-yaml -> https://github.com/Sashie/skript-yaml    
 TuSKe -> https://github.com/szumielxd/TuSKe/releases/tag/v1.9.1   
 
+Put this jars to /plugins
+
+# Installation
+
+After providing all the requirements to your server restart your server after   
+Put merchant.sk to plugins/Skript/scripts in your server.   
+Execute console command /sk reload merchant.sk    
+After installation is done if you want if you want to Use custom menus created by me not test menus 
+
 # Special Categorys IDS
 
 ID: 'null' -> Returns nothing     
