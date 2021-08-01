@@ -31,7 +31,7 @@ function MerchantYAMLReload():
 function MerchantYAML():
 	load yaml "plugins/Merchant/config.yml" as "config"
 	if yaml "config" is empty:
-		set yaml value "Version" from "config" to "1.0.1"
+		set yaml value "Version" from "config" to "1.0.2"
 		set yaml value "Category.Name" from "config" to "&0Merchant"
 		set yaml value "Category.Size" from "config" to 6
 		set yaml value "Category.Items.Redstone.Name" from "config" to "&fRedstone Products"
