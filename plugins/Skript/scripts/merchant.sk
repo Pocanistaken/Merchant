@@ -611,7 +611,16 @@ function MerchantAPIPurchase(total : number, amount : number, d : object, item :
 # {_item} -> The item of player wants to buy with parsed
 # {_uuid} -> Uuid of seller.
 # {_p} -> Event-player
+#broadcast "&e%{_p}% &7, is purchased &c{_amount} &7of &c{_item} &7for &c${_total} &7from merchant."
 
+function MerchantAPIItemAdd(price : integer, amount : number, item : item, p : player):
+# If you know SkriptLang you can use this API ;)
+# {_price} -> Price of item
+# {_amount} -> The amount of item
+# {_item} -> The item
+# {_p} -> Event-player
+#set {_counter} to {_price} * {_amount}
+#broadcast "&e%{_p}% &7, is put &c{_amount} &7of &c{_item} &7to merchant for &c${_counter}"
 
 command merchant [<text>] [<text>] [<text>] [<text>] [<text>] [<text>] [<text>]:
 	aliases: tüccar
@@ -661,6 +670,8 @@ command merchant [<text>] [<text>] [<text>] [<text>] [<text>] [<text>] [<text>]:
 								set yaml value "Player.Shop.%{_hand}%.%uuid of player%.Amount" from "shops" to {_amount}
 								save yaml "shops"	
 								send {_text} to player
+								MerchantAPIItemAdd({_balance}, {_amount}, {_hand}, {_p})
+								
 						else:
 
 							set {_text} to yaml value "Language.Not-Listed-Item" from "language"
@@ -809,27 +820,3 @@ command merchant [<text>] [<text>] [<text>] [<text>] [<text>] [<text>] [<text>]:
 				loop {_Merchant::Help::Lore::*}:
 					set {_Merchant::Help::Lore::%loop-index%} to colored loop-value		
 				send {_Merchant::Help::Lore::*} to player
-				
-				
-				
-				
-				
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-							
-			
