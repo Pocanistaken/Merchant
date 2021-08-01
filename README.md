@@ -41,7 +41,8 @@ ID: 'store' -> Returns player's store
 
 If you know the SkriptLang here is functions apis for you to use as you wish
 
-```function MerchantAPIPurchase(total : number, amount : number, d : object, item : item, uuid : text, p : player):
+```
+function MerchantAPIPurchase(total : number, amount : number, d : object, item : item, uuid : text, p : player):
 # If you know SkriptLang you can use this API ;)
 # {_total} -> Total price of purchase
 # {_amount} -> The amount of item the player wants to buy
@@ -58,7 +59,7 @@ function MerchantAPIItemAdd(price : integer, amount : number, item : item, p : p
 # {_item} -> The item
 # {_p} -> Event-player
 #set {_counter} to {_price} * {_amount}
-#broadcast "&e%{_p}% &7, is put &c{_amount} &7of &c{_item} &7to merchant for &c${_counter}"```
+#broadcast "&e%{_p}% &7, is put &c{_amount} &7of &c{_item} &7to merchant for &c${_counter}"
 
 
 
